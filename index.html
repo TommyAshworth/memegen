@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1 id="header"><strong>I CAN HAZ MEMEZ?</strong></h1>
+    <br>
+    <p>Fill out the form to start creating memes!</p>
+<section id="s1">
+    <form action="submit-meme" method="POST">
+        <label for=""></label> Image URL
+            <input type="text" name="imageurl" id="imageurl" placeholder="What's the URL for your meme image?">
+        <label for="">Text On Top</label>
+            <input type="text" name="top" id="top" placeholder="(Optional) What text do you want at the top of the meme?">
+        <label for="">Text On Bottom</label>
+            <input type="text" name="bottom" id="bottom" placeholder="(Optional) What text do you want at the bottom of the meme?">
+            <button id="add-meme">Add Meme</button>
+    </form>
+</section>
+    <img src="" id="meme-img" alt="Generated Meme"> -->
+    <header>
+        <h1>Meme Generator</h1>
+      </header>
+      <main>
+        <form>
+          <label for="image">Image URL:</label>
+          <input type="text" id="image" name="image" required>
+          <label for="top-text">Top Text:</label>
+          <input type="text" id="top-text" name="top-text">
+          <label for="bottom-text">Bottom Text:</label>
+          <input type="text" id="bottom-text" name="bottom-text">
+          <button type="submit">Generate Meme</button>
+        </form>
+        <div id="meme-container"></div>
+      </main>
+    <script src="app.js"></script>
+</body>
+</html>
